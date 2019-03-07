@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains di_taxonomies_department.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function di_taxonomies_department_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the di_taxonomies_department module.
+    case 'help.page.di_taxonomies_department':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Use department to group content with academic or administrative departments.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

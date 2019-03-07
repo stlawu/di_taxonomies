@@ -1,0 +1,14 @@
+{
+  "name": "stlawu/di_taxonomies_authorship",
+  "type": "drupal-custom-module",
+  "description": "Use authorship to list authors of content.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/stlawu/di_taxonomies",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "",
+    "source": ""
+  },
+  "require": { }
+}

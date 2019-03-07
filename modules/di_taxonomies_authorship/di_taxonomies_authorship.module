@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains di_taxonomies_authorship.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function di_taxonomies_authorship_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the di_taxonomies_authorship module.
+    case 'help.page.di_taxonomies_authorship':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Use authorship to list authors of content.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

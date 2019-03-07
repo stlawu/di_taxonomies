@@ -1,0 +1,14 @@
+name: 'Digital Initiatives Taxonomies'
+type: module
+description: 'Commonly used taxonomies.'
+core: 8.x
+package: 'Digital Initiatives'
+dependencies:
+  - field
+  - path
+  - pathauto
+  - system
+  - taxonomy
+  - text
+  - token
+  - user

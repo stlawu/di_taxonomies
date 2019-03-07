@@ -1,0 +1,14 @@
+{
+  "name": "stlawu/di_taxonomies",
+  "type": "drupal-custom-module",
+  "description": "Commonly used taxonomies.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/stlawu/di_taxonomies",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "",
+    "source": ""
+  },
+  "require": { }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "stlawu/di_taxonomies_department",
+  "type": "drupal-custom-module",
+  "description": "Use department to group content with academic or administrative departments.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/stlawu/di_taxonomies",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "",
+    "source": ""
+  },
+  "require": { }
+}
